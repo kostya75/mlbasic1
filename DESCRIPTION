@@ -1,0 +1,12 @@
+Package: mlbasic1
+Title: basic neural networks and logistic regression
+Version: 0.0.0.9000
+Authors@R: person("Konstantin", "Mingoulin", email = "kmingoulin@gmail.com", role = c("aut", "cre"))
+Description: Collection of functions for classification problems. Multi-layer Neural Network classifier designed to produce binary classification.
+Depends: R (>= 3.5.0)
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
+Suggests: knitr, rmarkdown

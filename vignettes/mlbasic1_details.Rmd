@@ -1,0 +1,39 @@
+---
+title: "mlbasic1_details"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{mlbasic1_details}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## This vignette document is the official description of the super advanced package runs a basic multilayer neural network
+
+## To use the package you will need:
+* input matrix of features formated so that every training example is a column
+* matrix of labels
+
+***
+
+## Detailed usage
+* you can supply multiple years at once in
+```{r eval=F}
+# Estimate parameters
+model_dim<-c(first_layer,,l2,l3,...,1)
+parameters<-L_layer_model(X, Y, layers_dims=model_dim, learning_rate = 0.0075, num_iterations = 3000, print_cost=F)
+
+predict_nn_L_layer(X_new, parameters)
+```
+
+***
+## Package also contains data 'X' and 'Y' that can be accessed as:
+```{r eval=F}
+data(package="mlbasic1")
+```
